@@ -3,7 +3,6 @@ Health Chatbot Agent
 Contains the LangGraph agent logic, tools, and workflow.
 """
 
-import os
 from dotenv import load_dotenv
 from langgraph.graph import StateGraph, END, START
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage

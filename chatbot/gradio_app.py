@@ -4,7 +4,7 @@ Provides a web interface with voice input support for the health chatbot.
 """
 
 import gradio as gr
-from agent import get_chatbot_response
+from chatbot.agent import get_chatbot_response
 from openai import OpenAI
 
 client = OpenAI()
